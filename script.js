@@ -1,0 +1,81 @@
+$(".one").show();
+$(".Spongebob").show();
+$(".reply-yes").click(function() {  
+$(".Krabs").hide();
+    $(".Spongebob").hide();
+    $(".two").show();
+    $(".one").hide();
+    $(".car").show();
+    $(".reply-no").hide();
+    $(".reply-yes").hide();
+    $(".four").hide();
+    $(".si").hide();
+    $(".no").hide();
+     $(".pizza").hide();
+});
+
+$(".reply-no").click(function() {
+    $(".Krabs").show();
+    $(".car").hide();
+    $(".Spongebob").hide();
+    $(".two").hide();
+    $(".one").hide();
+    $(".three").show();
+    $(".reply-no").hide();
+    $(".reply-yes").hide();
+    $(".four").hide();
+    $(".si").hide();
+    $(".no").hide();
+     $(".pizza").hide();
+});
+
+$(".car").dblclick(function(){
+    $(".car").hide();
+    $(".two").hide();
+    $(".four").show();
+    $(".si").show();
+    $(".no").show();
+     $(".pizza").show();
+});
+$(".si").click(function() { 
+    $(".five").show();
+    $(".four").hide();
+    $(".pizza").hide();
+    $(".angry").show();
+    $(".si").hide();
+    $(".no").hide();
+});
+$(".no").click(function() { 
+    $(".five").hide();
+    $(".pizza").hide();
+    $(".six").show();
+    $(".four").hide();
+    $(".si").hide();
+    $(".no").hide();
+    $(".door").show();
+});
+$(".door").hover(function(){
+    $(".seven").show();
+    $(".six").hide();
+    $(".customer").show();
+    $(".door").hide();
+    $(".sure").show();
+    $(".nah").show();
+});
+$(".sure").click(function(){
+    $(".yay").show();
+    $(".customer").hide();
+    $(".seven").hide();
+    $(".eight").show();
+    $(".sure").hide();
+    $(".nah").hide();
+});
+$(".nah").click(function(){
+    $(".nine").show();
+    $(".drink").show();
+    $(".customer").hide();
+    $(".seven").hide();
+    $(".sure").hide();
+    $(".nah").hide();
+});
+
