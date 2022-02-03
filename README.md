@@ -1,1 +1,0 @@
-# Payal-Singh-Midterm-Project
