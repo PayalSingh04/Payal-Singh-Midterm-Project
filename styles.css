@@ -1,0 +1,81 @@
+img {
+    width: 500px;
+    height:300px;
+}
+
+button {
+    margin-top: 15px;
+}
+.door{
+    display:none;
+}
+.angry{
+    display:none;
+}
+.pizza{
+    display:none;
+}
+.car{
+    display:none;
+}
+.Krabs{
+  display:none;
+}
+.customer{
+    display:none;
+}
+.one{display:none;
+}
+.two{
+    display:none;
+}
+.three{
+    display:none;
+}
+.four{
+    display:none;
+}
+.five{
+    display:none;
+}
+.six{
+    display:none;
+}
+.seven{
+    display:none;
+}
+.eight{
+    display:none;
+}
+.nine{
+    display:none;
+}
+.si{
+    display:none;
+}
+.no{
+    display:none;
+}
+.sure{
+    display:none;
+}
+.nah{
+    display:none;
+}
+.yay{
+    display:none;
+}
+.drink{
+    display:none;
+}
+.spongebob-reply {
+    padding: 15px;
+    display: inline;
+}
+body {
+  background-color: lightblue;
+}
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
